@@ -1,0 +1,11 @@
+def test(lst):
+    result = {}
+    for item in lst:
+        result[item[0]] = item[1:]
+    return result
+students = [1,"Tashreeq"],[2,"Tareef"],[3,"Ishrat"]
+print("original list")
+print(students)
+print("converted list to dictionary")
+print(test(students))
+
